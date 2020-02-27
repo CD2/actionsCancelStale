@@ -1,0 +1,16 @@
+{
+  "name": "@cd2/actions-cancel-stale",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CD2/actionsCancelStale",
+  "author": "The Henry Morgan <henry@cd2solutions.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  }
+}

@@ -1,0 +1,10 @@
+name: 'CD2 - cancel stale workflows'
+description: 'Automatically detect and cancel stale workflow runs'
+author: "henry@cd2"
+inputs:
+  token:  # id of input
+    description: 'Github access token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
